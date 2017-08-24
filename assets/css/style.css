@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Simplifica';
+    src: url('../fonts/simplifica/Simplifica.ttf');
+}
+
+:root {
+	--themeColor: #2b333b;
+	--backgroundColor: #ccc;
+}
+
+html {
+	min-height : 100%;
+	position   : relative;
+}
+
+body {
+	background: url(../images/space.jpg) fixed center center no-repeat;
+	margin-bottom    : 231px;
+}
+
+
+
+.panel-transparent {
+        background: none;
+    }
+
+.panel-transparent .panel-heading .jumbotron{
+        background: rgba(122, 130, 136, 0.2)!important;
+    }
+
+.panel-transparent .panel-body{
+        background: rgba(46, 51, 56, 0.2)!important;
+        color: white;
+    }
+
+.jumbotron {
+	margin     : 15px 0 20px;
+	text-align : center;
+	color: #42bcf4;
+
+}
+
+.panel-default {
+	margin-left  : 15px;
+	margin-right : 15px;
+	font-size    : 18px;
+	border-color : var(--themeColor);
+}
+
+.Planet {
+	text-align : center;
+	font-size  : 24px;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+#spaces {
+	letter-spacing: 10px;
+}
+
+.img-thumbnail {
+	margin-left  : 15px;
+	margin-right : 15px;
+	border-color : var(--themeColor);
+	width        : 98%;
+	height       : 470px;
+}
+
+
+@media screen and (max-width: 1200px) {
+	.img-thumbnail {
+		margin-left: 0;
+		width: 100%
+	}
+}
+@media screen and (max-width: 769px) {
+	body {
+		margin-bottom: 397px;
+	}
+
+	.img-thumbnail {
+		margin-left: 0;
+		margin-bottom: 50px;
+		width: 100%;
+		height: auto;
+	}
+
+	
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		margin-bottom: 565px;
+	}
+	.img-thumbnail {
+		margin-bottom: 0;
+	}
+}

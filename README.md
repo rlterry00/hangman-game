@@ -1,1 +1,1 @@
-# hangman-game
+# Planet-Game
