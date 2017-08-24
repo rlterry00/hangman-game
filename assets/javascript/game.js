@@ -27,7 +27,7 @@ function reset() {
 	(document.getElementById("guessedLetters")).textContent = guessedLetters;
 	(document.getElementById("spaces")).style.letterSpacing = 10;
 	(document.getElementById("spaces")).textContent = "_____";
-	(document.getElementById("image")).src = "assets/images/Initial.png";
+	(document.getElementById("image")).src = "assets/images/initial.png";
 	n = 0;
 	j = 0;
 }
